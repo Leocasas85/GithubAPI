@@ -1,11 +1,11 @@
 import requests
 import json
 
-url = "https://api.github.com/users/hpidcock"
+url = "https://api.github.com/users/<Username>"
 
 payload = ""
 headers = {
-    'Authorization': "Bearer 3cdbd1755b417f6e829a77fdee2d7fcc87b20436",
+    'Authorization': "Bearer <Your Token",
     'cache-control': "no-cache",
     'Postman-Token': "925dcaab-f487-4d56-9ec9-4e94f29e5007"
     }
